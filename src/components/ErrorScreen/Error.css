@@ -1,0 +1,26 @@
+.Error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Error button {
+  outline: 0px solid #dbe1d5;
+  border: none;
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  background: #2ea5aa;
+  color: #dbe1d5;
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.Error button:hover {
+  outline: 3px solid #dbe1d5;
+  font-size: 19px;
+  transition: all 0.15s;
+}

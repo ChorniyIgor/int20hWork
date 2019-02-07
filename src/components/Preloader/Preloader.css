@@ -1,0 +1,11 @@
+.Preloader {
+  height: 100vh;
+}
+.PreloaderImg {
+  background: url("../../image/loader.gif") center bottom no-repeat;
+  height: 60vh;
+}
+.LoadingPercentages {
+  text-align: center;
+  font-size: 30px;
+}

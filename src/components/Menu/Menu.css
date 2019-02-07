@@ -1,0 +1,68 @@
+.Menu {
+  list-style: none;
+  padding-left: 0;
+  background: #7c272c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.Menu .container {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+}
+.Menu li {
+  flex-grow: 1;
+  margin: 10px;
+  width: 14%;
+}
+.Menu li button {
+  outline: 0px solid #dbe1d5;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  background: #2ea5aa;
+  color: #dbe1d5;
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.Menu li button:disabled {
+  opacity: 0.5;
+}
+
+.Menu li button:hover {
+  outline: 3px solid #dbe1d5;
+  font-size: 19px;
+  transition: all 0.15s;
+}
+
+.Menu li button:disabled:hover {
+  outline: 0px solid #dbe1d5;
+  font-size: 17px;
+  cursor: auto;
+}
+
+.Header {
+  background: #7c272c;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #dbe1d5;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.Logo {
+  width: 50%;
+  margin-top: 15px;
+  max-width: 400px;
+}
