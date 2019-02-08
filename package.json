@@ -23,6 +23,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-slick": "^0.15.4"
+    "react-slick": "^0.23.2"
   }
 }
